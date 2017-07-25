@@ -1,0 +1,141 @@
+body {
+	background: #E4E9F2;
+	background-image: url('../img/ticks.png');
+}
+
+.o-success {
+	border: 1px solid #5cb85c
+}
+
+.o-danger {
+	border: 1px solid #d9534f
+}
+
+.o-warning {
+	border: 1px solid #f0ad4e
+}
+
+.o-info {
+	border: 1px solid #5bc0de
+}
+
+#sidebar {
+	-webkit-transition: 200ms;
+	-moz-transition-duration: 200ms;
+	-ms-transition-duration: 200ms;
+	-o-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+.navbar {
+
+	border-radius: 0;
+	border-width: 0px 0px 2px 0px;
+	border-color:  #468FFF;;
+	
+}
+
+.navbar-brand {
+	
+	font-weight: 100;
+	padding: 15px;
+}
+.navbar-brand img {
+	height: 50px;
+	width: 40px;
+	line-height: 80px;
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+}
+.navbar-brand span {
+	padding-left: 10px;
+	line-height: 50px;
+	display: inline-block;
+}
+
+.panel {
+	box-shadow: 0px 2px 10px rgba(0,0,0,.05), 0px 2px 0px rgba(0,0,0,.15);
+}
+
+img.hero-spam {
+	height: 50%;
+	max-height: 100px;
+	margin: 0px auto;
+	display: block;
+}
+.hero-spam-wrap {
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+	float: none;
+	background: #eaeaea;
+}
+
+hr.special {
+	position:relative; 
+}
+
+hr.special:after {
+
+	width: 50px;
+	font-size: 12px;
+	color: #9a9a9a;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	height: 20px;
+	background: #fff;
+	content: attr(data-title);
+	top: -10px;
+	text-align: center;
+
+}	
+
+.growler {
+	display: block;
+	width: 100px;
+	text-align: center;
+
+   -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+}
+
+.relative {
+	position: relative;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  15%,85% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  15%,85% { opacity: 1; }
+}
+
+/*.ipfloater {
+	
+}
+@media screen and (min-width: 768px) {
+	.hero-pad-extra {
+		margin: 50px;
+	}
+	.ipfloater {
+		position: fixed;
+		top: 150px;	
+		right: 40px;
+		width: 400px;
+	}
+}*/
+@media screen and (max-width: 767px) {
+	.hero-pad-extra {
+		text-align: center;
+	}
+
+
+	
+}
+
